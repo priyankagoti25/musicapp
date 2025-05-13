@@ -16,7 +16,7 @@ const Navbar = ({ className }: { className?: string }) => {
     })
     return (
         <>
-            <button onClick={() => setDarkMode(!darkMode)} className="fixed top-3 lg:top-4 right-3 lg:right-4 w-9 h-9 lg:w-10 lg:h-10 flex justify-center items-center rounded-full bg-white text-neutral-950
+            <button onClick={() => setDarkMode(!darkMode)} className="fixed z-10 top-3 lg:top-4 right-3 lg:right-4 w-9 h-9 lg:w-10 lg:h-10 flex justify-center items-center rounded-full bg-white text-neutral-950
       shadow-lg hover-bg-gray-100 transition-colors  ">
                 d
             </button>
